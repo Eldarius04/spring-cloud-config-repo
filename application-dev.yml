@@ -1,1 +1,7 @@
+# Настройки для профиля 'dev'
+app:
+  welcome-message: "Hello from DEV profile! Welcome, Developer!"
+  description: "This configuration is for development environment"
 
+server:
+  port: 8081 # Для dev запустим на другом порту, чтобы не путать с сервером конфигов
