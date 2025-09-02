@@ -1,7 +1,14 @@
-# Настройки для профиля 'prod'
 app:
-  welcome-message: "Hello from PROD profile! System is running in production mode!"
-  description: "This configuration is for production environment. Be careful!"
+  welcome-message: "Welcome to PRODUCTION Environment!"
+  description: "Production configuration for Spring Cloud Config"
+  version: "1.0.0-prod"
+
+my:
+  secret: "prod-secret-key-abcde"
 
 server:
-  port: 8082 # Для prod тоже свой порт
+  port: 8080
+
+logging:
+  level:
+    com.example: INFO
