@@ -1,7 +1,7 @@
-# Общие настройки для всех профилей
 app:
-  welcome-message: "Hello from DEFAULT Spring Cloud Config!"
-  description: "This is a basic configuration"
+  welcome-message: "Welcome to Spring Cloud Config Demo!"
+  description: "This is a sample application using Spring Cloud Config"
+  version: "1.0.0"
 
 my:
-  secret: "default-secret-key-123"
+  secret: "default-secret-key-12345"
