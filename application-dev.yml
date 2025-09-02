@@ -1,7 +1,10 @@
-# Настройки для профиля 'dev'
 app:
-  welcome-message: "Hello from DEV profile! Welcome, Developer!"
-  description: "This configuration is for development environment"
+  welcome-message: "Welcome to DEV Environment!"
+  description: "Development configuration for Spring Cloud Config"
+  version: "1.0.0-dev"
+
+my:
+  secret: "dev-secret-key-67890"
 
 server:
-  port: 8081 # Для dev запустим на другом порту, чтобы не путать с сервером конфигов
+  port: 8081
