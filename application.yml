@@ -1,1 +1,7 @@
+# Общие настройки для всех профилей
+app:
+  welcome-message: "Hello from DEFAULT Spring Cloud Config!"
+  description: "This is a basic configuration"
 
+my:
+  secret: "default-secret-key-123"
